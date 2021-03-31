@@ -1,0 +1,19 @@
+@mixin width {
+  max-width: 935px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: $bg-color;
+  font-family: $font-family;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+}

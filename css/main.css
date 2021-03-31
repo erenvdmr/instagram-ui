@@ -1,0 +1,1173 @@
+/* Font */
+/* Colors */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+}
+body p {
+  margin: 0;
+  padding: 0;
+}
+body ul li {
+  list-style-type: none;
+}
+
+.Header {
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.Header-top {
+  max-width: 935px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Header-top-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 9px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+.Header-top-navbar-search {
+  width: 200px;
+  position: relative;
+  direction: rtl;
+  padding: 0 0 0 20px;
+  align-items: center;
+}
+.Header-top-navbar-search #input {
+  width: 200px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  padding: 5px 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  color: #949494;
+  font-size: 0.9em;
+  font-weight: 300;
+  outline: none;
+  text-align: center;
+}
+.Header-top-navbar-search img {
+  position: absolute;
+  width: 12px;
+  bottom: 2px;
+  left: 8px;
+  height: 24px;
+  text-align: center;
+}
+.Header-top-navbar-logo a img {
+  width: 103px;
+  height: auto;
+}
+.Header-top-navbar-menu {
+  display: flex;
+}
+.Header-top-navbar-menu-icons img {
+  width: 22px;
+  padding-right: 20px;
+}
+.Header-top-navbar-menu-profile img {
+  width: 22px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.Content {
+  max-width: 935px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 85px;
+  display: flex;
+}
+.Content-main-top-story {
+  max-width: 614px;
+  height: 114px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  overflow: auto;
+}
+.Content-main-top-story .user {
+  padding-left: 20px;
+  align-items: center;
+  text-align: center;
+}
+.Content-main-top-story .user img {
+  width: 60px;
+  background: linear-gradient(to right, #ea5851, #c53b91);
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 3px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Content-main-top-story .user p {
+  font-size: 0.75em;
+  color: #000000;
+}
+.Content-main-top-post {
+  margin-top: 30px;
+  max-width: 614px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.Content-main-top-post-profile {
+  padding-left: 15px;
+  padding-top: 15px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.Content-main-top-post-profile div {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.Content-main-top-post-profile div #user2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Content-main-top-post-profile div span {
+  padding-left: 15px;
+  font-weight: bold;
+}
+.Content-main-top-post-profile #icon {
+  width: 18px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.Content-main-top-post-photo {
+  padding-top: 15px;
+}
+.Content-main-top-post-photo img {
+  max-width: 614px;
+  height: 614px;
+}
+.Content-main-top-post-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Content-main-top-post-tools-left {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.Content-main-top-post-tools-left img {
+  width: 24px;
+  padding-right: 16px;
+  cursor: pointer;
+}
+.Content-main-top-post-tools-right {
+  padding-top: 10px;
+  padding-right: 15px;
+}
+.Content-main-top-post-tools-right img {
+  width: 24px;
+  cursor: pointer;
+}
+.Content-main-top-post-info {
+  padding-left: 15px;
+  padding-top: 10px;
+  flex-direction: column;
+  border-bottom: 1px solid #dbdbdb;
+}
+.Content-main-top-post-info-likes p {
+  font-weight: bold;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+.Content-main-top-post-info-detail {
+  padding-top: 10px;
+  display: flex;
+  font-size: 0.9em;
+}
+.Content-main-top-post-info-detail span {
+  font-weight: bold;
+  cursor: pointer;
+}
+.Content-main-top-post-info-detail p {
+  padding-left: 5px;
+  max-width: 500px;
+}
+.Content-main-top-post-info-date p {
+  text-transform: uppercase;
+  color: #949494;
+  font-size: 0.75em;
+  padding-top: 10px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.Content-main-top-post-comment {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  align-items: center;
+}
+.Content-main-top-post-comment-emoji {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.Content-main-top-post-comment form input {
+  width: 500px;
+  border: none;
+  outline: none;
+  color: #949494;
+  font-size: 0.9em;
+}
+.Content-main-top-post-comment form a {
+  color: #3398f6;
+}
+.Content-sidebar {
+  width: 300px;
+  margin-left: 30px;
+}
+.Content-sidebar-top {
+  padding-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Content-sidebar-top-profile {
+  display: flex;
+  align-items: center;
+}
+.Content-sidebar-top-profile img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+.Content-sidebar-top-profile .text {
+  padding-left: 18px;
+  cursor: pointer;
+}
+.Content-sidebar-top-profile .text span {
+  font-weight: bold;
+}
+.Content-sidebar-top-profile .text p {
+  color: #949494;
+  padding-top: 2px;
+}
+.Content-sidebar-top-switch a {
+  color: #3398f6;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.Content-sidebar-bottom-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Content-sidebar-bottom-title h4 {
+  color: #949494;
+}
+.Content-sidebar-bottom-title a {
+  color: #000000;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.Content-sidebar-bottom-users {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Content-sidebar-bottom-users .user3 {
+  display: flex;
+  align-items: center;
+}
+.Content-sidebar-bottom-users .user3 .profile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+.Content-sidebar-bottom-users .user3 .info {
+  padding-left: 10px;
+  font-size: 0.9em;
+}
+.Content-sidebar-bottom-users .user3 .info span {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+.Content-sidebar-bottom-users .user3 .info p {
+  color: #949494;
+}
+.Content-sidebar-bottom-users a {
+  color: #3398f6;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.Content-sidebar-bottom-options {
+  padding-top: 8px;
+}
+.Content-sidebar-bottom-options p {
+  color: #cccccc;
+  font-size: 0.75em;
+  padding-top: 10px;
+}
+.Content-sidebar-bottom-options .helper a {
+  color: #cccccc;
+  font-size: 0.75em;
+}
+
+.Message {
+  max-width: 935px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 85px;
+}
+.Message-content {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  display: flex;
+}
+.Message-content-sidebar {
+  width: 40%;
+  height: 700px;
+  border-right: 1px solid #dbdbdb;
+  overflow: auto;
+}
+.Message-content-sidebar-top {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+  background-color: white;
+  width: 100%;
+  flex: 1;
+}
+.Message-content-sidebar-top .user {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.Message-content-sidebar-top .user img {
+  width: 14px;
+  padding-left: 10px;
+}
+.Message-content-sidebar-top .pen img {
+  padding-right: 20px;
+  width: 24px;
+}
+.Message-content-sidebar-bottom-messages {
+  cursor: pointer;
+  justify-content: flex-start;
+}
+.Message-content-sidebar-bottom-messages:hover {
+  background-color: #fafafa;
+}
+.Message-content-sidebar-bottom-messages .users {
+  display: flex;
+  margin-top: 8px;
+  padding: 8px 0 8px 16px;
+  align-items: center;
+}
+.Message-content-sidebar-bottom-messages .users img {
+  width: 56px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Message-content-sidebar-bottom-messages .users .text {
+  padding-left: 12px;
+  font-size: 0.9em;
+}
+.Message-content-sidebar-bottom-messages .users .text p {
+  color: #949494;
+  padding-top: 5px;
+}
+.Message-content-send {
+  width: 100%;
+  height: 700px;
+}
+.Message-content-send-text {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 130px;
+}
+.Message-content-send-text img {
+  width: 60px;
+}
+.Message-content-send-text p {
+  font-size: 1.25em;
+  font-weight: lighter;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+.Message-content-send-text h4 {
+  margin: 0;
+  padding: 0;
+}
+.Message-content-send-text button {
+  margin-top: 25px;
+  padding: 6px 10px;
+  background-color: #3398f6;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.Header {
+  z-index: 1;
+}
+
+.Discover {
+  max-width: 935px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 85px;
+  z-index: -1;
+}
+.Discover img {
+  cursor: pointer;
+}
+.Discover img:hover {
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+}
+.Discover-main {
+  display: flex;
+}
+.Discover-main-left {
+  width: 31.5%;
+  padding-right: 30px;
+}
+.Discover-main-left img {
+  max-width: 100%;
+}
+.Discover-main-left #first {
+  padding-bottom: 26px;
+}
+.Discover-main-right {
+  width: 66.2%;
+}
+.Discover-main-right img {
+  width: 100%;
+}
+.Discover-sub {
+  margin-top: 26px;
+}
+.Discover-sub-post {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Discover-sub-post #first {
+  width: 31.2%;
+  padding-bottom: 26px;
+}
+.Discover-sub-post #first img {
+  width: 100%;
+}
+
+.Header {
+  z-index: 1;
+}
+
+.Profile {
+  max-width: 935px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 85px;
+  z-index: -1;
+}
+.Profile-top {
+  max-width: 100%;
+  padding-left: 70px;
+  display: flex;
+  padding-bottom: 45px;
+}
+.Profile-top-pp img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Profile-top-text {
+  padding-left: 100px;
+  margin-top: 5px;
+}
+.Profile-top-text-title {
+  display: flex;
+}
+.Profile-top-text-title h2 {
+  font-weight: 300;
+  font-size: 1.75em;
+  margin: 0;
+  padding: 0;
+}
+.Profile-top-text-title button {
+  margin: 0 13px 0 20px;
+  padding: 5px 9px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  font-size: 0.9em;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+.Profile-top-text-title img {
+  width: 24px;
+  cursor: pointer;
+}
+.Profile-top-text-info {
+  display: flex;
+  padding-top: 20px;
+}
+.Profile-top-text-info #posts {
+  display: flex;
+}
+.Profile-top-text-info #posts a {
+  display: flex;
+  align-items: center;
+}
+.Profile-top-text-info #posts a p {
+  padding-left: 5px;
+}
+.Profile-top-text-info .all {
+  display: flex;
+}
+.Profile-top-text-info .all a {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-right: 40px;
+}
+.Profile-top-text-info .all a h2 {
+  font-size: 1em;
+}
+.Profile-top-text-info .all a p {
+  padding-left: 5px;
+  font-weight: 300;
+}
+.Profile-top-text-bio {
+  padding-top: 10px;
+}
+.Profile-top-text-bio h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 1em;
+}
+.Profile-top-text-bio p {
+  padding: 6px 0 6px 0;
+}
+.Profile-top-text-bio a {
+  font-weight: bold;
+}
+.Profile-posts {
+  width: 935px;
+  border-top: 1px solid #dbdbdb;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Profile-posts img {
+  width: 30%;
+  padding-bottom: 33px;
+  cursor: pointer;
+}
+.Profile-posts img:hover {
+  filter: brightness(50%);
+}
+
+/* 
+  Tablets, Ipads 
+  620px to 934px
+*/
+@media (min-width: 620px) and (max-width: 934px) {
+  .Content-main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Content-sidebar {
+    display: none;
+  }
+  .Profile-top {
+    padding-left: 0;
+  }
+  .Profile-top-text {
+    padding-left: 50px;
+  }
+  .Profile-top-text-title {
+    flex-direction: column;
+  }
+  .Profile-top-text-title button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .Profile-top-text img {
+    display: none;
+  }
+}
+
+/* 
+  Low Tablets, Mobiles 
+  481px to 619px
+*/
+@media (min-width: 481px) and (max-width: 619px) {
+  .Header-top-navbar-search {
+    display: none;
+  }
+  .Content-main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Content-sidebar {
+    display: none;
+  }
+  .Discover-main {
+    justify-content: space-between;
+  }
+  .Discover-main-left {
+    padding-right: 5px;
+  }
+  .Discover-main-left #first {
+    padding-bottom: 10px;
+  }
+  .Discover-sub {
+    margin-top: 10px;
+  }
+  .Discover-sub-post {
+    justify-content: space-between;
+  }
+  .Discover-sub-post #first {
+    padding-bottom: 10px;
+  }
+  .Profile-top {
+    padding-left: 0;
+  }
+  .Profile-top-text {
+    padding-left: 50px;
+  }
+  .Profile-top-text-title {
+    flex-direction: column;
+  }
+  .Profile-top-text-title button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .Profile-top-text img {
+    display: none;
+  }
+  .Message-content-sidebar {
+    width: 100%;
+  }
+  .Message-content-send {
+    display: none;
+  }
+}
+
+/* 
+  Most of the Smartphones Mobiles
+  320px to 480px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .Header-top-main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Header-top-navbar-search {
+    display: none;
+  }
+  .Content-sidebar {
+    display: none;
+  }
+  .Discover-main-left {
+    padding-right: 12px;
+  }
+  .Discover-main-left #first {
+    padding-bottom: 6px;
+  }
+  .Discover-sub {
+    margin-top: 5px;
+  }
+  .Discover-sub-post {
+    justify-content: space-between;
+  }
+  .Discover-sub-post #first {
+    padding-bottom: 8px;
+  }
+  .Profile-top {
+    padding-left: 0;
+  }
+  .Profile-top-text {
+    padding-left: 50px;
+  }
+  .Profile-top-text-title {
+    flex-direction: column;
+  }
+  .Profile-top-text-title button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .Profile-top-text img {
+    display: none;
+  }
+  .Message-content-sidebar {
+    width: 100%;
+  }
+  .Message-content-send {
+    display: none;
+  }
+}
+
+/* 
+  Zero to 319px
+*/
+@media (min-width: 0px) and (max-width: 319px) {
+  .Header-top-navbar-search {
+    display: none;
+  }
+  .Content-sidebar {
+    display: none;
+  }
+  .Discover-main-left {
+    padding-right: 5px;
+  }
+  .Discover-main-left #first {
+    padding-bottom: 1px;
+  }
+  .Discover-sub {
+    margin-top: 1px;
+  }
+  .Discover-sub-post {
+    justify-content: flex-start;
+  }
+  .Discover-sub-post #first {
+    padding-bottom: 1px;
+    padding-right: 5px;
+  }
+  .Profile-top {
+    padding-left: 0;
+  }
+  .Profile-top-text {
+    padding-left: 50px;
+  }
+  .Profile-top-text-title {
+    flex-direction: column;
+  }
+  .Profile-top-text-title button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .Profile-top-text img {
+    display: none;
+  }
+  .Message-content-sidebar {
+    width: 100%;
+  }
+  .Message-content-send {
+    display: none;
+  }
+}

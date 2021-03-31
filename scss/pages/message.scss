@@ -1,0 +1,128 @@
+.Message {
+  @include width;
+  margin-top: 85px;
+
+  &-content {
+    width: 100%;
+    height: 700px;
+    background-color: $primary-color;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: flex;
+
+    &-sidebar {
+      width: 40%;
+      height: 700px;
+      border-right: 1px solid $border-color;
+      overflow: auto;
+
+      &-top {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $border-color;
+        background-color: $primary-color;
+        width: 100%;
+        flex: 1;
+
+        .user {
+          display: flex;
+          margin-left: auto;
+          margin-right: auto;
+          cursor: pointer;
+
+          img {
+            width: 14px;
+            padding-left: 10px;
+          }
+        }
+
+        .pen img {
+          padding-right: 20px;
+          width: 24px;
+        }
+      }
+
+      &-bottom {
+        &-messages {
+          cursor: pointer;
+          justify-content: flex-start;
+
+          &:hover {
+            background-color: $bg-color;
+          }
+
+          .users {
+            display: flex;
+            margin-top: 8px;
+            padding: 8px 0 8px 16px;
+            align-items: center;
+
+            img {
+              width: 56px;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              -o-border-radius: 50%;
+            }
+
+            .text {
+              padding-left: 12px;
+              font-size: 0.9em;
+              p {
+                color: $secondary-color;
+                padding-top: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &-send {
+      width: 100%;
+      height: 700px;
+
+      &-text {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 130px;
+
+        img {
+          width: 60px;
+        }
+
+        p {
+          font-size: 1.25em;
+          font-weight: lighter;
+          padding-top: 12px;
+          padding-bottom: 6px;
+        }
+
+        h4 {
+          margin: 0;
+          padding: 0;
+        }
+
+        button {
+          margin-top: 25px;
+          padding: 6px 10px;
+          background-color: $follow-color;
+          border: none;
+          color: $primary-color;
+          border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          cursor: pointer;
+          outline: none;
+        }
+      }
+    }
+  }
+}

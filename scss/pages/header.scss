@@ -1,0 +1,82 @@
+.Header {
+  background-color: $primary-color;
+  border-bottom: 1px solid $border-color;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  &-top {
+    @include width;
+
+    &-navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 9px;
+      padding-bottom: 5px;
+      align-items: center;
+
+      &-search {
+        width: 200px;
+        position: relative;
+        direction: rtl;
+        padding: 0 0 0 20px;
+        align-items: center;
+
+        #input {
+          width: 200px;
+          border: 1px solid $border-color;
+          background-color: $bg-color;
+          padding: 5px 10px;
+          border-radius: 3px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          -ms-border-radius: 3px;
+          -o-border-radius: 3px;
+          color: $secondary-color;
+          font-size: 0.9em;
+          font-weight: 300;
+          outline: none;
+          text-align: center;
+        }
+
+        img {
+          position: absolute;
+          width: 12px;
+          bottom: 2px;
+          left: 8px;
+          height: 24px;
+          text-align: center;
+        }
+      }
+
+      &-logo {
+        a img {
+          width: 103px;
+          height: auto;
+        }
+      }
+
+      &-menu {
+        display: flex;
+
+        &-icons {
+          img {
+            width: 22px;
+            padding-right: 20px;
+          }
+        }
+
+        &-profile {
+          img {
+            width: 22px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}

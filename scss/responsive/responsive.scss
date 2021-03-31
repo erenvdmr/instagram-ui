@@ -1,0 +1,295 @@
+/* 
+  Tablets, Ipads 
+  620px to 934px
+*/
+
+@media (min-width: 620px) and (max-width: 934px) {
+  .Content {
+    &-main {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &-sidebar {
+      display: none;
+    }
+  }
+
+  .Profile {
+    &-top {
+      padding-left: 0;
+
+      &-text {
+        padding-left: 50px;
+
+        &-title {
+          flex-direction: column;
+
+          button {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 10px;
+          }
+        }
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/* 
+  Low Tablets, Mobiles 
+  481px to 619px
+*/
+
+@media (min-width: 481px) and (max-width: 619px) {
+  .Header {
+    &-top {
+      &-navbar {
+        &-search {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .Content {
+    &-main {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &-sidebar {
+      display: none;
+    }
+  }
+
+  .Discover {
+    &-main {
+      justify-content: space-between;
+      &-left {
+        padding-right: 5px;
+
+        #first {
+          padding-bottom: 10px;
+        }
+      }
+    }
+
+    &-sub {
+      margin-top: 10px;
+
+      &-post {
+        justify-content: space-between;
+
+        #first {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .Profile {
+    &-top {
+      padding-left: 0;
+
+      &-text {
+        padding-left: 50px;
+
+        &-title {
+          flex-direction: column;
+
+          button {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 10px;
+          }
+        }
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .Message {
+    &-content {
+      &-sidebar {
+        width: 100%;
+      }
+      &-send {
+        display: none;
+      }
+    }
+  }
+}
+
+/* 
+  Most of the Smartphones Mobiles
+  320px to 480px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Header {
+    &-top {
+      &-main {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &-navbar {
+        &-search {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .Content {
+    &-sidebar {
+      display: none;
+    }
+  }
+
+  .Discover {
+    &-main {
+      &-left {
+        padding-right: 12px;
+
+        #first {
+          padding-bottom: 6px;
+        }
+      }
+    }
+
+    &-sub {
+      margin-top: 5px;
+
+      &-post {
+        justify-content: space-between;
+
+        #first {
+          padding-bottom: 8px;
+        }
+      }
+    }
+  }
+
+  .Profile {
+    &-top {
+      padding-left: 0;
+
+      &-text {
+        padding-left: 50px;
+
+        &-title {
+          flex-direction: column;
+
+          button {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 10px;
+          }
+        }
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .Message {
+    &-content {
+      &-sidebar {
+        width: 100%;
+      }
+      &-send {
+        display: none;
+      }
+    }
+  }
+}
+
+/* 
+  Zero to 319px
+*/
+
+@media (min-width: 0px) and (max-width: 319px) {
+  .Header {
+    &-top {
+      &-navbar {
+        &-search {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .Content {
+    &-sidebar {
+      display: none;
+    }
+  }
+
+  .Discover {
+    &-main {
+      &-left {
+        padding-right: 5px;
+
+        #first {
+          padding-bottom: 1px;
+        }
+      }
+    }
+
+    &-sub {
+      margin-top: 1px;
+
+      &-post {
+        justify-content: flex-start;
+
+        #first {
+          padding-bottom: 1px;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+
+  .Profile {
+    &-top {
+      padding-left: 0;
+
+      &-text {
+        padding-left: 50px;
+
+        &-title {
+          flex-direction: column;
+
+          button {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 10px;
+          }
+        }
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .Message {
+    &-content {
+      &-sidebar {
+        width: 100%;
+      }
+      &-send {
+        display: none;
+      }
+    }
+  }
+}

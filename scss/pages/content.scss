@@ -1,0 +1,324 @@
+.Content {
+  @include width;
+  margin-top: 85px;
+  display: flex;
+  &-main {
+    &-top {
+      &-story {
+        max-width: 614px;
+        height: 114px;
+        background-color: $primary-color;
+        border: 1px solid $border-color;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        display: flex;
+        align-items: center;
+        flex: 1;
+        overflow: auto;
+
+        .user {
+          padding-left: 20px;
+          align-items: center;
+          text-align: center;
+
+          img {
+            width: 60px;
+            background: linear-gradient(to right, #ea5851, #c53b91);
+            border-radius: 50%;
+            font-size: 20px;
+            padding: 3px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+          }
+
+          p {
+            font-size: 0.75em;
+            color: $dark-color;
+          }
+        }
+      }
+
+      &-post {
+        margin-top: 30px;
+        max-width: 614px;
+        background-color: $primary-color;
+        border: 1px solid $border-color;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+
+        &-profile {
+          padding-left: 15px;
+          padding-top: 15px;
+          justify-content: space-between;
+          display: flex;
+          align-items: center;
+
+          div {
+            align-items: center;
+            display: flex;
+            cursor: pointer;
+            #user2 {
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              -o-border-radius: 50%;
+            }
+
+            span {
+              padding-left: 15px;
+              font-weight: bold;
+            }
+          }
+
+          #icon {
+            width: 18px;
+            padding-right: 15px;
+            cursor: pointer;
+          }
+        }
+
+        &-photo {
+          padding-top: 15px;
+          img {
+            max-width: 614px;
+            height: 614px;
+          }
+        }
+
+        &-tools {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &-left {
+            display: flex;
+            padding-left: 15px;
+            padding-top: 10px;
+            img {
+              width: 24px;
+              padding-right: 16px;
+              cursor: pointer;
+            }
+          }
+
+          &-right {
+            padding-top: 10px;
+            padding-right: 15px;
+            img {
+              width: 24px;
+              cursor: pointer;
+            }
+          }
+        }
+
+        &-info {
+          padding-left: 15px;
+          padding-top: 10px;
+          flex-direction: column;
+          border-bottom: 1px solid $border-color;
+
+          &-likes {
+            p {
+              font-weight: bold;
+              font-size: 0.9em;
+              cursor: pointer;
+            }
+          }
+
+          &-detail {
+            padding-top: 10px;
+            display: flex;
+            font-size: 0.9em;
+            span {
+              font-weight: bold;
+              cursor: pointer;
+            }
+
+            p {
+              padding-left: 5px;
+              max-width: 500px;
+            }
+          }
+
+          &-date {
+            p {
+              text-transform: uppercase;
+              color: $secondary-color;
+              font-size: 0.75em;
+              padding-top: 10px;
+              font-weight: 300;
+              padding-bottom: 10px;
+            }
+          }
+        }
+
+        &-comment {
+          display: flex;
+          justify-content: space-between;
+          padding: 15px 15px;
+          align-items: center;
+
+          &-emoji {
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+          }
+
+          form {
+            input {
+              width: 500px;
+              border: none;
+              outline: none;
+              color: $secondary-color;
+              font-size: 0.9em;
+            }
+
+            a {
+              color: $follow-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-sidebar {
+    width: 300px;
+    margin-left: 30px;
+
+    &-top {
+      padding-top: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &-profile {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 56px;
+          height: 56px;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          cursor: pointer;
+        }
+
+        .text {
+          padding-left: 18px;
+          cursor: pointer;
+
+          span {
+            font-weight: bold;
+          }
+
+          p {
+            color: $secondary-color;
+            padding-top: 2px;
+          }
+        }
+      }
+
+      &-switch {
+        a {
+          color: $follow-color;
+          font-size: 0.8em;
+          font-weight: bold;
+        }
+      }
+    }
+
+    &-bottom {
+      &-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h4 {
+          color: $secondary-color;
+        }
+
+        a {
+          color: $dark-color;
+          font-size: 0.8em;
+          font-weight: bold;
+        }
+      }
+
+      &-users {
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .user3 {
+          display: flex;
+          align-items: center;
+
+          .profile {
+            img {
+              width: 32px;
+              height: 32px;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              -o-border-radius: 50%;
+              cursor: pointer;
+            }
+          }
+
+          .info {
+            padding-left: 10px;
+            font-size: 0.9em;
+
+            span {
+              font-weight: bold;
+              cursor: pointer;
+              font-size: 1em;
+            }
+
+            p {
+              color: $secondary-color;
+            }
+          }
+        }
+
+        a {
+          color: $follow-color;
+          font-size: 0.8em;
+          font-weight: bold;
+        }
+      }
+
+      &-options {
+        padding-top: 8px;
+        p {
+          color: $subtitle;
+          font-size: 0.75em;
+          padding-top: 10px;
+        }
+
+        .helper {
+          a {
+            color: $subtitle;
+            font-size: 0.75em;
+          }
+        }
+      }
+    }
+  }
+}
